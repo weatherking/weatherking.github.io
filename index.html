@@ -1,0 +1,178 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherKing</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+ <div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+    <!-- off-canvas title bar for 'small' screen -->
+    <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="medium">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+        <span class="title-bar-title"><img src="img/WeatherKing_logo.png"></span>
+      </div>
+    </div>
+
+    <!-- off-canvas left menu -->
+    <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+      <ul class="vertical dropdown menu" data-dropdown-menu>
+        <li><a href="left_item_1">Left item 1</a></li>
+        <li><a href="left_item_2">Left item 2</a></li>
+        <li><a href="left_item_3">Left item 3</a></li>
+      </ul>
+    </div>
+
+    <!-- "wider" top-bar menu for 'medium' and up -->
+    <div id="widemenu" class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text logo"><img src="img/WeatherKing_logo.png"></li>
+          <li class="has-submenu">
+            <a href="#">WK Buildings</a>
+            <ul class="menu submenu vertical" data-submenu>
+              <li><a href="left_wide_11">Left wide 1</a></li>
+              <li><a href="left_wide_12">Left wide 2</a></li>
+              <li><a href="left_wide_13">Left wide 3</a></li>
+            </ul>
+          </li>
+          <li class="menu"><a href="">Carports</a></li>
+          <li class="has-submenu">
+            <a href="#">Catalogs</a>
+            <ul class="menu submenu vertical" data-submenu>
+              <li><a href="left_wide_21">Left wide 1</a></li>	
+              <li><a href="left_wide_22">Left wide 2</a></li>
+              <li><a href="left_wide_23">Left wide 3</a></li>
+            </ul>
+          </li>
+          <li class="menu"><a href="#">Contact</li></a>
+          <li class="menu"><a href="#">Location</li></a>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><input type="search" placeholder="Search"></li>
+          <li><button class="button">Search</button></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- original content goes in this container -->
+    <div class="off-canvas-content" data-off-canvas-content>
+    <div class="content-background">
+    	<div class="row">
+    		<div class="medium-12 columns call">
+    			<div class="medium-6 columns phone">
+    				<p>Call us today! 407-371-9748</p>
+    			</div>
+    			<div class="medium-6 columns social">
+	    			<div class="media"><a href="https://www.facebook.com/WeatherKingUS/"><img src="img/Facebook.svg"></a></div>
+	    			<div class="media"><a href=""><img src="img/Instagram.svg"></a></div>
+	    			<div class="media"><a href=""><img src="img/symbol.svg"></a></div>
+	    			<div class="media"><a href="https://plus.google.com/u/0/+WeatherKingUS/posts/p/pub"><img src="img/google.svg"></a></div>
+	    			<div class="media"><a href="https://twitter.com/weatherkingus"><img src="img/twitter.svg"></a></div>
+	    			<div class="media"><a href="https://www.youtube.com/c/weatherkingus"><img src="img/youtube.svg"></a></div>
+    			</div>
+    		</div>
+    	</div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <img src="img/addimg.jpg">
+        </div>
+      </div>
+      <div class="row threepic">
+        <div class="medium-4 columns"><a href=""><img src="img/DSC06435.jpg"></a></div>
+        <div class="medium-4 columns"><a href=""><img src="img/DSC06434.jpg"></a></div>
+        <div class="medium-4 columns"><a href=""><img src="img/DSC06433.jpg"></a></div>
+      </div>
+      <div class="row service_contact">
+        <div class="medium-4 columns">
+          <ul class="center">
+            <li>Carports</li>
+            <li>Garages</li>
+            <li>RV Covers</li>
+            <li>Boat Covers</li>
+            <li>Animal Shelters</li>
+            <li>Farm Equip. Shelters</li>
+          </ul>
+        </div>
+        <div class="medium-4 columns">
+          <ul class="center">
+            <li>Saturday - Linda 407-925-1087</li>
+            <li>Sunday - James 480-492-2793</li>
+            <li>Any Day - Glenda 407-371-9748</li>
+            <li>Monday - Friday Home Appts. Only</li>
+            <li>Sat & Sunday See us at Renninger's Flea Market</li>
+          </ul>
+        </div>
+        <div class="medium-4 columns">
+          <ul class="center">
+            <li>Quick Installation</li>
+            <li>5 Pc. Bow Construction</li>
+            <li>Factory Cert. Installers</li>
+            <li>20 + Years in Business</li>
+            <li>American Owned & Operated</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns gradient">
+          <p>Offering covers in Standard, A-Frame and Flat Styles.</p>
+          <p>Available in widths from 10 to 40 feet and lengths of 20 and 40 feet.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <p id="rent">Rent to own! No Credit Check!</p>
+          <ul class="shed-items">
+            <li><a href=""><img src="img/loftedbarncabin.jpg"></a></li>
+            <li><a href=""><img src="img/utitlity.jpg"></a></li>
+            <li><a href=""><img src="img/loftedbarn.jpg"></a></li>
+            <li><a href=""><img src="img/barn.jpg"></a></li>
+            <li><a href=""><img src="img/cabin.jpg"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-12 columns">
+          <ul class="shed-items">
+            <li><a href=""><img src="img/sideloftedbarn.jpg"></a></li>
+            <li><a href=""><img src="img/sideutility.jpg"></a></li>
+            <li><a href=""><img src="img/garage.jpg"></a></li>
+            <li><a href=""><img src="img/cottageshed.jpg"></a></li>
+            <li><a href=""><img src="img/sideloftedbarncabinwithporch.jpg"></a></li>
+          </ul>
+          <p id="rent">FREE DELIVERY & SETUP!</p>
+        </div>
+      </div>
+    	<div class="row">
+    		<div class="medium-12 columns">
+    			<div id="card"><img src="img/card.jpg"></div>
+    		</div>
+    	</div>
+      <div class="row">
+        <div class="medium-12 columns footer">
+        <hr>
+        <p>&copy; WeatherKing.us All right reserved. </p>
+        <p>20651 US HWY. 441 Mount Dora, FL 32757</p>
+      </div>
+    </div>
+    </div>
+  <!-- close wrapper, no more content after this -->
+  </div>
+  </div>
+</div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
